@@ -4,6 +4,6 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      name: say hello
+      - name: say hello
       - run: echo "Hello, world"
       - uses: actions/checkout@v4
